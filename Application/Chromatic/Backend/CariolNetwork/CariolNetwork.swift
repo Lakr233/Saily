@@ -343,7 +343,10 @@ class CariolNetwork {
 
         // MARK: - SAVE TO CONTAINER
 
+        accessLock.lock()
         completedFileLookup[downloadFrom] = cacheUrl
+        accessLock.unlock()
+
         Dog.shared.join(self,
                         "package \(package.identity) checkout successfully to \(cacheUrl.path)",
                         level: .info)
