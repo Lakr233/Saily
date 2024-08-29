@@ -183,6 +183,9 @@ class CariolNetwork {
                 try? FileManager.default.removeItem(at: cache)
                 DiggerCache.removeTempFile(with: url)
                 DiggerCache.removeCacheFile(with: url)
+                accessLock.lock()
+                completedFileLookup.removeValue(forKey: url)
+                accessLock.unlock()
             }
         }
 
@@ -380,7 +383,12 @@ class CariolNetwork {
     /// - Returns: file url
     func obtainDownloadedFile(for package: Package) -> URL? {
         accessLock.lock()
-        let fetch = completedFileLookup[package.obtainDownloadLink()]
+        let key = package.obtainDownloadLink()
+        var fetch = completedFileLookup[key]
+        if let check = fetch, !FileManager.default.fileExists(atPath: check.path) {
+            fetch = nil
+            completedFileLookup.removeValue(forKey: key)
+        }
         accessLock.unlock()
         return fetch
     }
