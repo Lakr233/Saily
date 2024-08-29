@@ -6,7 +6,9 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SailyTeam/Saily/pulls)
 
-Saily is a modern APT package manager designed for jailbroken devices running iOS/iPadOS 15 and above, using the Dopamine jailbreak.
+Saily is a modern APT package manager designed for jailbroken devices running iOS/iPadOS 15 and above, using the **Dopamine** jailbreak.
+
+If you are using RootHide or NathenLR, you may need to modify the jbroot and adopt some patches yourself. Forks or pull requests are welcome.
 
 ![Preview](Resources/main.jpeg)
 
