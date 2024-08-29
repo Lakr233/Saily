@@ -66,7 +66,7 @@ extension TaskManager {
         // if the loop didn't finish in a controlled time the request will be denied
         var currentDepth = 0
         var loopSuccess = false
-        while currentDepth < 500, !loopSuccess { // protect my stack frame
+        while currentDepth < 512, !loopSuccess { // protect my stack frame
             currentDepth += 1
             var foundExtra = false
             // oh my little ram

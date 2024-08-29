@@ -218,12 +218,10 @@ class CariolNetwork {
         makeNotification()
 
         let seed = DiggerManager.shared.download(with: url)
-
         seed.speed { bytes in
             speedCache = Int(bytes)
             makeNotification()
         }
-
         seed.progress { progress in
             progressCache = progress
             makeNotification()

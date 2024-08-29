@@ -71,7 +71,7 @@ extension TaskManager {
         }
 
         func resolveMissingItem(context: [Package], install: Package, depth: Int) -> SearchResult {
-            if depth > 50 { return returnHook(.init(success: false, install: [], missing: [], breaks: [])) }
+            if depth > 256 { return returnHook(.init(success: false, install: [], missing: [], breaks: [])) }
 
             func debugPrint(_ str: String) {
                 var str = str
