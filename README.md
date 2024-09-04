@@ -8,7 +8,7 @@
 
 Saily is a modern APT package manager designed for jailbroken devices running iOS/iPadOS 15 and above, using the **Dopamine** jailbreak.
 
-If you are using RootHide or NathenLR, you may need to modify the jbroot and adopt some patches yourself. Forks or pull requests are welcome.
+If you are using RootHide or NathanLR, you may need to modify the jbroot and adopt some patches yourself. Forks or pull requests are welcome.
 
 ![Preview](Resources/main.jpeg)
 
