@@ -32,7 +32,7 @@
 "AUTHOR" = "Autor";
 
 /* Automatically */
-"AUTOMATICALLY" = "Automatically";
+"AUTOMATICALLY" = "Automatisch";
 
 /* Available Versions */
 "AVAILABLE_VERSIONS" = "Verfügbare Versionen";
@@ -128,7 +128,7 @@
 "DELETED" = "Gelöscht";
 
 /* Depiction */
-"DEPICTION" = "Depiction";
+"DEPICTION" = "Darstellung";
 
 /* Details */
 "DETAILS" = "Details";
@@ -173,7 +173,7 @@
 "DOWNLOADING" = "Lade herunter";
 
 /* Dry Run */
-"DRY_RUN" = "Dry Run";
+"DRY_RUN" = "Probelauf";
 
 /* Enable History */
 "ENABLE_HISTORY" = "Verlauf aktivieren";
@@ -203,7 +203,7 @@
 "ESSENTIAL_PACKAG_IN_REMOVE_QUEUE" = "Notwenidges Paket in der Entfernungswarteschlange, dies kann dein Gerät schädigen.";
 
 /* Execute */
-"EXECUTE" = "Execute";
+"EXECUTE" = "Ausführen";
 
 /* Failed to create operation payload, incomplete download or broken resources. Please try again later. */
 "FAILED_TO_CREATE_PAYLOAD_MAYBE_DOWNLOAD_FAILED" = "Fehler beim Erstellen der Operationsnutzlast, unvollständiger Download oder defekte Ressourcen. Bitte versuche es später erneut.";
@@ -305,7 +305,7 @@
 "NO_UPDATE_REQUIRED" = "Kein Update erforderlich";
 
 /* None */
-"NONE" = "None";
+"NONE" = "Nichts";
 
 /* Not Available */
 "NOT_AVAILABLE" = "Nicht verfügbar";
@@ -314,10 +314,10 @@
 "NOT_MODIFIED" = "Nicht geändert";
 
 /* Native Only */
-"ONLY_NATIVE" = "Native Only";
+"ONLY_NATIVE" = "nur Nativ";
 
 /* Web Only */
-"ONLY_WEB" = "Web Only";
+"ONLY_WEB" = "nur Web";
 
 /* Open Download */
 "OPEN_DOWNLOAD" = "Download-Ordner öffnen";
@@ -461,7 +461,7 @@
 "RESUMED" = "Fortgesetzt";
 
 /* Reveal Files */
-"REVEAL_FILES" = "Reveal Files";
+"REVEAL_FILES" = "Dateien enthüllen";
 
 /* Search */
 "SEARCH" = "Suchen";
@@ -566,7 +566,7 @@
 "UPDATE_WHEN_AVAILABLE" = "Autom. Aktualisieren";
 
 /* User Agent */
-"USER_AGENT" = "User Agent";
+"USER_AGENT" = "Benutzer-Agent";
 
 /* Validating... */
 "VALIDATING..." = "Prüfen...";
