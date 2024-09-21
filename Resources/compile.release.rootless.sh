@@ -18,7 +18,7 @@ fi
 
 bartycrouch update
 bartycrouch lint
-swiftformat . --swiftversion 5.10
+swiftformat . --swiftversion 5.10 || true
 
 if [ ! -e "build" ]; then
     mkdir build
