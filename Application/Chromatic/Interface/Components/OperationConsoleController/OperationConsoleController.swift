@@ -122,8 +122,8 @@ class OperationConsoleController: UIViewController {
         dispatchOnce = true
         DispatchQueue.global().async {
             TaskProcessor.shared.beginOperation(operation: operation) { log in
-                DispatchQueue.main.async { [self] in
-                    appendLog(str: log)
+                DispatchQueue.main.asyncAndWait {
+                    self.appendLog(str: log)
                 }
             }
 

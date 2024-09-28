@@ -38,9 +38,9 @@ extension TaskManager {
         }()
         let installedExtendedLookupTable: [String: Package] = {
             var build = [String: Package]()
-            originalCopyInstalled.forEach {
-                build[$0.identity] = $0
-                guard let info = PackageRequirement(with: $0) else { return }
+            for element in originalCopyInstalled {
+                build[element.identity] = element
+                guard let info = PackageRequirement(with: element) else { continue }
                 for item in info.group where item.type == .provides {
                     item.requirements.map(\.elements).flatMap { $0 }.compactMap { $0 }.forEach {
                         if build[$0.representPackage] == nil {

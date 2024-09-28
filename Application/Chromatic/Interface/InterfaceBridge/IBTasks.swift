@@ -183,8 +183,8 @@ extension InterfaceBridge {
     static func availableUpdateCount() -> Int {
         let fetch = PackageCenter.default.obtainInstalledPackageList()
         var count = 0
-        fetch.forEach { package in
-            guard let version = package.latestVersion else { return }
+        for package in fetch {
+            guard let version = package.latestVersion else { continue }
             let candidates = PackageCenter
                 .default
                 .obtainUpdateForPackage(with: package.identity, version: version)

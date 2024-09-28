@@ -160,8 +160,8 @@ extension SearchController {
                 .compactMap { $0 }
             for compiler in compilers {
                 if token != self.searchToken { return }
-                compiler.forEach { url, package in
-                    if token != self.searchToken { return }
+                for (url, package) in compiler {
+                    if token != self.searchToken { continue }
                     var searchableContent = """
                     \(package.latestMetadata?["name"] ?? "")
                     \(package.latestMetadata?["author"] ?? "")
