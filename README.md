@@ -50,10 +50,10 @@ To compile for release, run the command line in the resources folder. Ensure you
 
 #### "While the world sleeps, we dream."
 
----
-
-Copyright © 2024 Saily Team. All Rights Reserved.
-
 ## Sponsor
 
 [LookInside](https://lookinside-app.com/) helps you inspect a running iOS or macOS app UI from your Mac.
+
+---
+
+Copyright © 2024 Saily Team. All Rights Reserved.
