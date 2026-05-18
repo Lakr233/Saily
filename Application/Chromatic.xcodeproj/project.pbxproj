@@ -11,6 +11,7 @@
 		031B27492E33863100CF3824 /* libroothide.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 031B27342E312C3300CF3824 /* libroothide.tbd */; };
 		03B05C212E3122CF004AF1DB /* AppFileShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B05C202E3122CF004AF1DB /* AppFileShare.m */; };
 		03B05C222E3122CF004AF1DB /* AppFileShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B05C202E3122CF004AF1DB /* AppFileShare.m */; };
+		1B43C60AD7E42427DC379873 /* LookInsideServer in Frameworks */ = {isa = PBXBuildFile; productRef = 382A60CB10A33FB3ED1147E2 /* LookInsideServer */; };
 		500034802469765800890951 /* Sections.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5000347F2469765800890951 /* Sections.xcassets */; };
 		500A2E5A26D12C0100A1DA03 /* AptScanner+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A2E5926D12C0100A1DA03 /* AptScanner+Remove.swift */; };
 		500C977526DA475800B66AB3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C977426DA475800B66AB3 /* SettingView.swift */; };
@@ -314,6 +315,9 @@
 		50FA2C6A26BC398E003806D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2C6926BC398E003806D6 /* main.swift */; };
 		50FE7A22271B2AA800CB74EB /* LaunchScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FE7A20271B2AA800CB74EB /* LaunchScreenBackground.png */; };
 		50FE7A23271B2AA800CB74EB /* AppIconTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FE7A21271B2AA800CB74EB /* AppIconTransparent.png */; };
+		59CFA9C7AAE4436B0C6161B9 /* RoothideSimulatorStubs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A290E96F58D37058AD42945 /* RoothideSimulatorStubs.mm */; };
+		D2D90CECEFD53CCBA1B3B95E /* RoothideSimulatorStubs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A290E96F58D37058AD42945 /* RoothideSimulatorStubs.mm */; };
+		D687B3E81E3E36EF86D2D103 /* LookInsideServer in Frameworks */ = {isa = PBXBuildFile; productRef = 382A60CB10A33FB3ED1147E2 /* LookInsideServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -370,6 +374,7 @@
 		03B05C1D2E311B57004AF1DB /* Tuner */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Tuner; path = ../Foundation/Tuner; sourceTree = SOURCE_ROOT; };
 		03B05C1F2E3122CF004AF1DB /* AppFileShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppFileShare.h; sourceTree = "<group>"; };
 		03B05C202E3122CF004AF1DB /* AppFileShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppFileShare.m; sourceTree = "<group>"; };
+		3A290E96F58D37058AD42945 /* RoothideSimulatorStubs.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = RoothideSimulatorStubs.mm; sourceTree = "<group>"; };
 		5000347F2469765800890951 /* Sections.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sections.xcassets; sourceTree = "<group>"; };
 		500A2E5926D12C0100A1DA03 /* AptScanner+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AptScanner+Remove.swift"; sourceTree = "<group>"; };
 		500C977426DA475800B66AB3 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
@@ -549,6 +554,7 @@
 				507D4B482C8063F300CA34C5 /* Digger in Frameworks */,
 				507D4B492C8063F300CA34C5 /* DropDown in Frameworks */,
 				507D4B4A2C8063F300CA34C5 /* Bugsnag in Frameworks */,
+				D687B3E81E3E36EF86D2D103 /* LookInsideServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +588,7 @@
 				50CFB01926D2671600E66AB9 /* Digger in Frameworks */,
 				507D1E8726BFA8AF00E72E9B /* DropDown in Frameworks */,
 				50435E9626DBD35100D3ED25 /* Bugsnag in Frameworks */,
+				1B43C60AD7E42427DC379873 /* LookInsideServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1069,6 +1076,7 @@
 				50DBCBBD26D393EB007D2E73 /* AppleAvatar.swift */,
 				5012080026D37C5000E9C656 /* AuxiliaryExecute.swift */,
 				50274CC126D68DB2000EF6BB /* DeviceInfo.swift */,
+				3A290E96F58D37058AD42945 /* RoothideSimulatorStubs.mm */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1117,6 +1125,7 @@
 				507D4ABB2C8063F300CA34C5 /* AuxiliaryExecute */,
 				507D4ABC2C8063F300CA34C5 /* PathListTableViewController */,
 				507D4ABD2C8063F300CA34C5 /* Tuner */,
+				382A60CB10A33FB3ED1147E2 /* LookInsideServer */,
 			);
 			productName = Protein;
 			productReference = 507D4B5F2C8063F300CA34C5 /* Chromatic.Sim.app */;
@@ -1162,6 +1171,7 @@
 				50CF5828276049A8003AA45B /* AuxiliaryExecute */,
 				50940CA127C618D400075B48 /* PathListTableViewController */,
 				5037FB6528470117009BB103 /* Tuner */,
+				382A60CB10A33FB3ED1147E2 /* LookInsideServer */,
 			);
 			productName = Protein;
 			productReference = 50D528B82449B11300F4A483 /* chromatic.app */;
@@ -1201,6 +1211,9 @@
 				tr,
 			);
 			mainGroup = 50D528AF2449B11300F4A483;
+			packageReferences = (
+				51CB8488D3D5F06733190D01 /* XCRemoteSwiftPackageReference "LookInside-Release" */,
+			);
 			productRefGroup = 50D528B92449B11300F4A483 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1293,7 +1306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd $SOURCE_ROOT\npwd\nif ! command -v \"swiftformat\" &> /dev/null\nthen\n    echo \"swiftformat could not be found, skipping\"\n    exit 0\nfi\nswiftformat . --swiftversion 5.5\n";
+			shellScript = "if [ \"$CODE_SIGNING_ALLOWED\" = \"NO\" ]; then\n    echo \"Skipping Swift Format for unsigned verification build\"\n    exit 0\nfi\ncd $SOURCE_ROOT\npwd\nif ! command -v \"swiftformat\" &> /dev/null\nthen\n    echo \"swiftformat could not be found, skipping\"\n    exit 0\nfi\nswiftformat . --swiftversion 5.5\n";
 		};
 		507D4ABF2C8063F300CA34C5 /* Bartycrouch Update */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1312,7 +1325,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd $SOURCE_ROOT\npwd\nif ! command -v \"bartycrouch\" &> /dev/null\nthen\n    echo \"bartycrouch could not be found, skipping\"\n    exit 0\nfi\nbartycrouch update -x -w\nbartycrouch lint -x -w\n";
+			shellScript = "if [ \"$CODE_SIGNING_ALLOWED\" = \"NO\" ]; then\n    echo \"Skipping Bartycrouch for unsigned verification build\"\n    exit 0\nfi\ncd $SOURCE_ROOT\npwd\nif ! command -v \"bartycrouch\" &> /dev/null\nthen\n    echo \"bartycrouch could not be found, skipping\"\n    exit 0\nfi\nbartycrouch update -x -w\nbartycrouch lint -x -w\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1434,6 +1447,7 @@
 				507D4B2E2C8063F300CA34C5 /* RecentUpdateController.swift in Sources */,
 				507D4B2F2C8063F300CA34C5 /* SetupController.swift in Sources */,
 				507D4B302C8063F300CA34C5 /* HDRepoController.swift in Sources */,
+				D2D90CECEFD53CCBA1B3B95E /* RoothideSimulatorStubs.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1554,6 +1568,7 @@
 				50C3AC1B26DB6B6B0006E3A3 /* RecentUpdateController.swift in Sources */,
 				5012BCEB26BFA4BA0064A564 /* SetupController.swift in Sources */,
 				50A8052626CB5FA300F8FB7D /* HDRepoController.swift in Sources */,
+				59CFA9C7AAE4436B0C6161B9 /* RoothideSimulatorStubs.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1594,6 +1609,16 @@
 				DOCKER_SHOULD_BUILD = NO;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = (
+					"$(inherited)",
+					RoothideSimulatorStubs.mm,
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					CoreTelephony.tbd,
+					libroothide.tbd,
+				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Chromatic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1632,6 +1657,20 @@
 				DOCKER_SHOULD_BUILD = NO;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"$(inherited)",
+					"LookInsideServer*",
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = (
+					"$(inherited)",
+					RoothideSimulatorStubs.mm,
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					CoreTelephony.tbd,
+					libroothide.tbd,
+				);
 				INFOPLIST_FILE = Chromatic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
@@ -1787,6 +1826,16 @@
 				DOCKER_SHOULD_BUILD = NO;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = (
+					"$(inherited)",
+					RoothideSimulatorStubs.mm,
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					CoreTelephony.tbd,
+					libroothide.tbd,
+				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "$(SRCROOT)/Chromatic/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1826,6 +1875,20 @@
 				DOCKER_SHOULD_BUILD = NO;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"$(inherited)",
+					"LookInsideServer*",
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = (
+					"$(inherited)",
+					RoothideSimulatorStubs.mm,
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					CoreTelephony.tbd,
+					libroothide.tbd,
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Chromatic/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
@@ -1881,7 +1944,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		51CB8488D3D5F06733190D01 /* XCRemoteSwiftPackageReference "LookInside-Release" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LookInsideApp/LookInside-Release.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		382A60CB10A33FB3ED1147E2 /* LookInsideServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51CB8488D3D5F06733190D01 /* XCRemoteSwiftPackageReference "LookInside-Release" */;
+			productName = LookInsideServer;
+		};
 		500D83A526C2157E00D9E701 /* FLAnimatedImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FLAnimatedImage;
